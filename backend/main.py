@@ -11,7 +11,7 @@ from groq import Groq
 
 # --- Configuration ---
 DATABASE_FILE = "sagecureabhi.db"
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "YOUR_SECRETE_GROQ_API_KEY")
 
 # --- Initialize Groq API Client ---
 try:
